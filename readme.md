@@ -41,3 +41,25 @@ $ git add .
 $ git log
 $ git log --oneline --name-only --all --graph
 ```
+
+
+## IntelliJ 단축어
+
+### 참고
+[cheat sheet](https://www.jetbrains.com/help/idea/mastering-keyboard-shortcuts.html)
+
+### 코드포맷팅
+```
+ctrl + option + L
+```
+
+### 최근 본 내용으로 돌아가기
+```
+command + e
+```
+
+### Context Actions
+```
+option + enter
+```
+
