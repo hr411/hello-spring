@@ -15,17 +15,17 @@ $ git add .
 ### 현재 상태확인
 
 ```bash
-@ git status
+$ git status
 ```
 
 ### 커밋생성
-```
-@ git commit -m '커밋명'
+```bash
+$ git commit -m '커밋명'
 ```
 
 ### 커밋 업로드
-```
-@ git push 
+```bash
+$ git push 
 ```
 
 ### 커밋 히스토리 확인
@@ -62,4 +62,17 @@ command + e
 ```
 option + enter
 ```
+
+## DB 설치
+
+- https://www.h2database.com (1.4.200 버전 설치)
+- 다운로드 및 설치
+- h2 데이터베이스 버전은 스프링 부트 버전에 맞춘다. 
+- 권한 주기: chmod 755 h2.sh (윈도우 사용자는 x) 
+- 실행: ./h2.sh (윈도우 사용자는 h2.bat) 
+- 데이터베이스 파일 생성 방법
+  1. jdbc:h2:~/test (최초 한번)
+  2. ~/test.mv.db 파일 생성 확인
+  3. 이후부터는 jdbc:h2:tcp://localhost/~/test 이렇게 접속
+
 
