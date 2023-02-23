@@ -63,6 +63,11 @@ command + e
 option + enter
 ```
 
+### Generate
+```
+command + n
+```
+
 ## DB 설치
 
 - https://www.h2database.com (1.4.200 버전 설치)
