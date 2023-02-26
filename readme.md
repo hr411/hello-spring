@@ -68,6 +68,11 @@ option + enter
 command + n
 ```
 
+### 이전실행 다시실행
+```
+control +  R
+```
+
 ## DB 설치
 
 - https://www.h2database.com (1.4.200 버전 설치)
