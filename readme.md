@@ -42,7 +42,6 @@ $ git log
 $ git log --oneline --name-only --all --graph
 ```
 
-
 ## IntelliJ 단축어
 
 ### 참고
